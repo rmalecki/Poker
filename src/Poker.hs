@@ -1,7 +1,4 @@
-module Poker
-(getScore,
-shuffledDeck)
-where
+module Poker where
 
 import Data.List (sortBy, nubBy, filter, find)
 import Data.Ord (comparing)
